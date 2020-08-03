@@ -1,0 +1,31 @@
+.btnclass{
+     width: 100%;
+     height: 50px;
+}
+
+input{
+     width: 100% !important;
+     height: 50px;
+     outline:none;
+     font-size: 30px !important;
+     border-top: hidden;
+     border-right: hidden;
+     border-left: hidden;
+}
+
+.inputrow{
+     margin-top: 35px;
+}
+
+.todoitems{
+    margin-top: 30px;
+   
+}
+
+.todoitems li{
+  
+     list-style-type: none;
+    
+     font-size: 25px;
+}
+

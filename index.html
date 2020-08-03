@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12">
+
+                <h3 class="text-center">Todo App</h3>
+
+            </div>
+
+        </div>
+        <div class="row inputrow">
+
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-6 col-md-6">
+
+                        <input placeholder="Add Todo" type="text" id="todo-input">
+
+                    </div>
+                    <div class="col-3 col-md-3">
+                        <button type="button" class="btn btn-dark btnclass" onclick="addtodo()">Add Todo</button>
+
+
+                    </div>
+                    <div class="col-3 col-md-3">
+
+                        <button type="button"  class="btn btn-danger btnclass" onclick="deleteall()">Delete All</button>
+
+                    </div>
+
+                </div>
+                <div class="row">
+
+                    <div class="col-6 todoitems">
+                        
+                          <ul id="todoitems">
+
+                          </ul>
+                        
+                    </div>
+                    <div class="col-3" id="delbtn">
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <script src="app.js"></script>
+</body>
+
+
+</html>
