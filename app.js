@@ -10,7 +10,7 @@ function addtodo(){
     var delbtn=document.createElement("button");
     var delbtn_text= document.createTextNode("Delete");
     delbtn.appendChild(delbtn_text);
-    delbtn.setAttribute("class","btn btn-danger ");
+    delbtn.setAttribute("class","btn btn-danger flt ");
     delbtn.setAttribute("onclick","tododel(this)")
     list.appendChild(delbtn);
     
@@ -21,7 +21,7 @@ function addtodo(){
     var editbtn_text=document.createTextNode("Edit");
     editbtn.appendChild(editbtn_text);
     list.appendChild(editbtn);
-    editbtn.setAttribute("class","btn btn-dark ");
+    editbtn.setAttribute("class","btn btn-dark flt");
     editbtn.setAttribute("onclick","edittodo(this)");
    
 
